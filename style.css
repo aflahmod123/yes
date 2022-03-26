@@ -1,0 +1,105 @@
+*{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+}
+html{
+    background: whitesmoke;
+}
+body {
+    min-height: 1280px;
+    min-width: fit-content;
+}
+.mainHeader{
+margin: 20px;
+text-align: center;
+padding: auto;
+font-size: 45px;
+}
+.headerBox{
+    background-color: aqua;
+    padding: 10px;
+    margin: -10px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.questions{
+    margin: 200px;
+    background-color: blueviolet;
+    width: 45%;
+    height:100px;
+    border-radius: 2.5%;
+    text-align: center;
+    font-weight: bold;
+    vertical-align: middle;
+ -webkit-transition: height 0.9s;
+ left: 40%;
+}
+
+.questions:hover {
+    font-weight: bold;
+    font-size: 31px;
+    border-radius: 2.5%;
+    opacity: 1;
+    width: 45%;
+    height: 525px;
+}
+.hidden{
+opacity: 0.01;
+}
+.questions:hover .hidden{
+    -webkit-transition: opacity 2.5s;
+    opacity:1;
+}
+.questions:hov .hidden{
+    -webkit-transition: opacity 2.5s;
+    opacity:1;
+}
+.sidenav {
+    height: 100%; 
+    width: 0; 
+    position: fixed; 
+    z-index: 1; 
+    top: 0; 
+    left: 0;
+    background-color: #111; 
+    overflow-x: hidden; 
+    padding-top: 60px; 
+    transition: 0.5s; 
+
+}
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+  
+#main {
+    transition: margin-left .5s;
+    padding: 20px;
+  }
+  
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+  .openMenu{
+  border-radius: 25%;
+  background-color: #111;
+  color: White;
+  position: absolute;
+  top: 8px;
+  left: 16px;
+  width: 10%;
+  padding: 15px;
+}
